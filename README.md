@@ -8,8 +8,8 @@ This repository contains a Jupyter Notebook that demonstrates how to build and e
 - The images are reshaped, normalized, and split into training and test sets to prepare them for model training.
 # 3. Model Building
 - A neural network model is constructed using TensorFlow's Keras API. The model consists of multiple layers, including:
--- Flatten Layer: To convert the 2D image arrays into 1D arrays.
--- Dense Layers: Fully connected layers with activation functions to introduce non-linearity and learn complex patterns.
+1. Flatten Layer: To convert the 2D image arrays into 1D arrays.
+2. Dense Layers: Fully connected layers with activation functions to introduce non-linearity and learn complex patterns.
 # 4. Model Compilation
 - The model is compiled with a loss function, optimizer, and evaluation metrics.
 # 5. Training
